@@ -11,18 +11,18 @@ const UserSchema = new Schema(
       trim: true
     },
     email: {
-        type: String,
-        unique: true,
-        required: true,
-        //
+      type: String,
+      unique: true,
+      required: true,
+      match: mongoose.SchemaTypes.Email
     },
     thoughts: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Thought'
     },
     friends: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User'
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User'
     }
   },
   {
