@@ -7,7 +7,6 @@ const {
   deleteThoughtById
 } = require('../../controllers/thought-controller');
 
-// /api/pizzas/:id
 router
   .route('/:id')
   .post(addReaction)

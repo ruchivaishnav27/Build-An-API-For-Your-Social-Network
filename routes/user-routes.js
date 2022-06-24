@@ -7,7 +7,6 @@ const {
   deleteUserById
 } = require('../../controllers/user-controller');
 
-// /api/pizzas/:id
 router
   .route('/:id')
   .post(addFriend)
