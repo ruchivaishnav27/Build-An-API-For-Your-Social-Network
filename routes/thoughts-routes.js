@@ -1,11 +1,11 @@
 const router = require('express').Router();
 const {
   getAllThoughts,
-  getThoughtById,
-  createNewThought,
-  updateThoguhtById,
-  deleteThoughtById
-} = require('../../controllers/thought-controller');
+  getThoughtsById,
+  createNewThoughts,
+  updateThoguhtsById,
+  deleteThoughtsById
+} = require('../controllers/thoughts-controller');
 
 router
   .route('/:id')
