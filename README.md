@@ -1,4 +1,4 @@
-# SocialNetworkAPI
+# Build An API For Your Social Network 
 
 ## Description
 
@@ -6,11 +6,11 @@ This application allows a social media startup to create an API of their social 
 
 ## Installation
 
-To use this application, one must first install Express.js and Mongoose, also known as MongoDB.  Then they can follow along using this live link: 
+To use this application, one must first install Express.js and Mongoose, also known as MongoDB.  Then they can follow along using this link: 
 
 ## Usage
 
-One can use this application to create create an API of their social network.
+One can use this application to create an API of their social network.
 
 ## Credits
 
