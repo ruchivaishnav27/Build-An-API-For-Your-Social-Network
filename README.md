@@ -6,7 +6,7 @@ This application allows a social media startup to create an API of their social 
 
 ## Installation
 
-To use this application, one must first install Express.js and Mongoose, also known as MongoDB.  Then they can follow along using this link: 
+To use this application, one must first install Express.js and Mongoose, also known as MongoDB.  
 
 ## Usage
 
